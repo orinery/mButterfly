@@ -1,0 +1,55 @@
+body{
+  background-color: #C1C1C1;
+}
+nav{
+  line-height: 1.5;
+  letter-spacing: 0.09rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  right: 0;
+  width: 13%;
+  height: 100vh;
+  color: #111;
+  background-color: rgba(255,255,255,0.5);
+  backdrop-filter: blur(4px);
+}
+nav .logo{
+  position: absolute;
+  width:80%;
+  height: 80px;
+  top: 20px;
+  left: 20%;
+  outline: 2px solid;
+}
+nav ul li{
+  font-size: 16px;
+  position: relative;
+  left: 20%;
+  width: 80%;
+  height: 45px;
+  /* outline: 2px solid;  */
+}
+nav .contBtn{
+  font-size: 14px;
+  position: absolute;
+  width: 60%;
+  height: 45px;
+  line-height: 3.2;
+  bottom: 15px;
+  left: 20%;
+  text-align: center;
+  color: white;
+  background-color: rgb(37, 37, 37);
+}
+nav ul li:hover{
+  cursor: pointer;
+  color: #777;
+}
+
+nav .contBtn:hover{
+  cursor: pointer;
+  background-color: #777;
+}
