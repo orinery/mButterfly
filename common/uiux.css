@@ -1,7 +1,40 @@
+/* 레이아웃 */
+#main {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  /* background-color: #886F65; */
+}
+.container {
+  height: inherit;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.contents .page1, .contents .page2, .contents .page3, .contents .page4, .contents .page6{
+  width: 87%;
+  margin-left: 13%;
+  height: 500px;
+}
+
+.contents .page1 {
+  background-color: #74574A;
+}
+
+.contents .page2 {
+  background-color: #684D43;
+
+}
+
+
+/* 네비게이션 */
 body{
   background-color: #C1C1C1;
 }
 nav{
+  z-index: 5;
+  position: absolute;
+  left: 0;
   line-height: 1.5;
   letter-spacing: 0.09rem;
   position: relative;
@@ -53,3 +86,4 @@ nav .contBtn:hover{
   cursor: pointer;
   background-color: #777;
 }
+
