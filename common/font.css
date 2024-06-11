@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+.fontLibre{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+}
+.fontLibre_Bold{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+}
+.fontLibre_Italic{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400; font-style: italic;
+}
