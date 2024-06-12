@@ -1,0 +1,26 @@
+.contents .page1 .title{
+  /* outline: 2px solid; */
+  color: #AA1313;
+  position: relative;
+  /* margin: 0 auto; */
+  text-align: center;
+  width: 95%;
+  top: 200px;
+}
+.contents .page1 .title h1{
+  font-size: 11rem;
+  margin-bottom: 10px;
+}
+.contents .page1 .title h3{
+  /* color: #AA1313; */
+  font-size: 2rem;
+}
+.contents .page1 .desc{
+  position: relative;
+  color: #dfdfdf;
+  font-size: 2rem;
+  text-align: justify;
+  width: 68%;
+  top: 320px;
+  left: 30px;
+}
