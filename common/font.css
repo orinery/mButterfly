@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR:wght@200..900&display=swap');
+@font-face {
+    font-family: 'kdg_Medium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/kdg_Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
+/* 이 폰트는 영문만 지원합니다 */
 .fontLibre{
   font-family: 'Libre Baskerville', serif;
   font-weight: 400;
@@ -11,4 +26,65 @@
 .fontLibre_Italic{
   font-family: 'Libre Baskerville', serif;
   font-weight: 400; font-style: italic;
+}
+
+.fontKdg{
+  font-family: 'kdg_Medium';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 7rem;
+}
+
+.fontNotosans{
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+.fontNotosans_Light{
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+}
+.fontNotosans_Bold{
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+}
+.fontNotoSerif{
+  font-family: "Noto Serif KR", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+.fontNotoSerif_Light{
+  font-family: "Noto Serif KR", serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+}
+.fontNotoSerif_Bold{
+  font-family: "Noto Serif KR", serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+}
+.fontScoreDream{
+  font-family: 'S-CoreDream-3Light';
+  font-weight:400;
+  font-style: normal;
+}
+.fontScoreDream_Light{
+  font-family: 'S-CoreDream-3Light';
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+}
+.fontScoreDream_Bold{
+  font-family: 'S-CoreDream-3Light';
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
 }
