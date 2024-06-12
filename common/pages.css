@@ -24,3 +24,29 @@
   top: 320px;
   left: 30px;
 }
+
+.contents .page2 .desc{
+  position: relative;
+  top: 145px;
+  left: 225px;
+}
+.contents .page2 .desc .synop1{
+  position: relative;
+  text-align: left;
+  width: 70%;
+}
+.contents .page2 .desc .synop2{
+  position: relative;
+  text-align: right;
+  width: 70%;
+}
+.contents .page2 .desc .synop1 h1,.contents .page2 .desc .synop2 h1{
+  color: #AA1313;
+  font-size: 3rem;
+  padding-bottom: 16px;
+}
+.contents .page2 .desc .synop1 div, .contents .page2 div .synop2 div{
+  font-size: 1.5rem;
+  text-align: justify;
+  padding-bottom: 128px;
+}
