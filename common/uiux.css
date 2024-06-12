@@ -14,11 +14,11 @@
 .contents .page1, .contents .page2, .contents .page3, .contents .page4, .contents .page6{
   width: 87%;
   margin-left: 13%;
-  height: 500px;
+  height: 1000px;
 }
 
 .contents .page1 {
-  background-color: #74574A;
+  /* background-color: #74574A; */
 }
 
 .contents .page2 {
