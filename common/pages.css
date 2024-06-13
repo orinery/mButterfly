@@ -83,17 +83,17 @@
 .contents .page2 .desc{
   position: relative;
   top: 145px;
-  left: 225px;
+  left: 180px;
+  z-index: 1;
+  width: 75%;
 }
 .contents .page2 .desc .synop1{
   position: relative;
   text-align: left;
-  width: 70%;
 }
 .contents .page2 .desc .synop2{
   position: relative;
   text-align: right;
-  width: 70%;
 }
 .contents .page2 .desc .synop1 h1,.contents .page2 .desc .synop2 h1{
   color: #AA1313;
@@ -103,5 +103,20 @@
 .contents .page2 .desc .synop1 div, .contents .page2 div .synop2 div{
   font-size: 1.5rem;
   text-align: justify;
-  padding-bottom: 128px;
+}
+.contents .page2 .desc .synop1 div{
+  /* background: #898989; */
+  margin-bottom: 130px;
+  margin-right: 265px;
+}
+.contents .page2 .desc .synop2 div{
+  margin-left: 265px;
+}
+.contents .page2 .imgContainer .figure{
+  position: relative;
+  bottom: 543px;
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+  background-color:#898989;
+  width: 100%;
+  height: 80vh;
 }
