@@ -1,4 +1,3 @@
-
 .noise {
   position: fixed;
   left: 0;
@@ -23,14 +22,19 @@
   height: 1130px;
 }
 .contents .page1 .title{
-  /* outline: 2px solid; */
   color: #AA1313;
   position: relative;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   text-align: center;
-  width: 95%;
+  /* width: 95%; */
   top: 200px;
   z-index: 1005;
+}
+.contents .page1 .bigTitle{
+  display: flex;
+  margin: 0 auto;
+  padding-left: 200px;
+  width: 1446px;
 }
 .contents .page1 .title h1{
   font-size: 11rem;
@@ -41,14 +45,14 @@
   width: 200px;
   height: 200px;
   background: url(../images/butterfly2.png) center / contain no-repeat;
-  position: absolute;
+  position: relative;
   top: -120px;
-  right: 140px;
+  right: 90px;
 }
 .contents .page1 .title h3{
   /* color: #AA1313; */
   font-size: 1.8rem;
-  width: 1000px;
+  width: 60%;
   margin: 0 auto;
   background-color: #dfdfdf;
 }
@@ -71,19 +75,29 @@
   left: -80px;
   opacity: 0.3;
 }
-.contents .page1 .imgContainer .figure{
+/* .contents .page1 .imgContainer .figure{
   position: relative;
   bottom: 61px;
   clip-path: polygon(100% 0, 0% 100%, 100% 100%);
   background-color:#898989;
   width: 100%;
   height: 80vh;
+} */
+.contents .page1 .womanImg{
+  width: 550px;
+  height: 824px;
+  position: absolute;
+  /* outline: 2px solid; */
+  right: 7em;
+  top: 610px;
+  z-index: 5;
+  background: url(../images/womanImg2.png) center / contain no-repeat, linear-gradient(to top, rgba(255, 255, 255, 0.8), transparent);
 }
-
 
 /* ----------------- 페이지 2 시놉시스 -------------- */
 
 .contents .page2{
+
   position: relative;
 }
 .contents .page2 .desc{
@@ -128,4 +142,68 @@
   background-color:#676767;
   width: 100%;
   height: 100%;
+}
+
+
+/* 데스크탑 */
+@media screen and (min-width: 1440px){
+
+}
+
+@media screen and (max-width: 1024px){
+
+/* ----------------page1 공연소개---------------- */
+
+.contents .page1{
+  background-color: #676767;
+  height: 1130px;
+}
+.contents .page1 .title{
+  top: 120px;
+}
+.contents .page1 .bigTitle{
+  padding-left: 100px;
+  width: 100%;
+}
+.contents .page1 .title h1{
+  font-size: 7rem;
+}
+.contents .page1 .title .butterflyImg{
+  width: 100px;
+  height: 100px;
+  top: -65px;
+  right: 47px;
+}
+.contents .page1 .title h3{
+  font-size: 1.5rem;
+  width: 48%;
+  padding: 0px 20px;
+}
+.contents .page1 .desc{
+  font-size: 1.7rem;
+  width: 63%;
+  top: 178px;
+}
+.contents .page1 .bgImg{
+  width: 982px;
+  height: 544px;
+  top: 210px;
+}
+.contents .page1 .womanImg{
+  width: 436px;
+  height: 653px;
+  right: 3em;
+  top: 596px;
+}
+
+}
+
+/* tablet 규격 */
+@media screen and (max-width: 1023px){
+
+}
+
+/* mobile 규격 */
+@media screen and (max-width: 540px){
+
 }
