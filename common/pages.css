@@ -14,47 +14,65 @@
   visibility: visible;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* ----------------page1 공연소개---------------- */
 
-.contents .page1{
+.contents .page1 {
   background-color: #676767;
-  height: 1130px;
+  height: auto;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  min-height: calc(100vh + 515px); 
 }
-.contents .page1 .title{
+
+.contents .page1 .title {
   color: #AA1313;
   position: relative;
   margin: 0 auto;
   text-align: center;
-  /* width: 95%; */
   top: 200px;
   z-index: 1005;
+  width: 80%;
+  max-width: 1446px;
 }
-.contents .page1 .bigTitle{
+
+.contents .page1 .bigTitle {
   display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0 auto;
-  padding-left: 200px;
-  width: 1446px;
+  width: 100%;
 }
-.contents .page1 .title h1{
+
+.contents .page1 .bigTitle h1 {
   font-size: 11rem;
   margin-bottom: 10px;
   z-index: 1006;
+  display: inline-block;
 }
-.contents .page1 .title .butterflyImg{
-  width: 200px;
-  height: 200px;
+
+.contents .page1 .bigTitle .butterflyImg {
+  width: 200px; 
+  height: 200px; 
   background: url(../images/butterfly2.png) center / contain no-repeat;
   position: relative;
-  top: -120px;
-  right: 90px;
+  top: -90px; 
+  margin-left: -90px;
 }
-.contents .page1 .title h3{
-  /* color: #AA1313; */
+
+.contents .page1 .title h3 {
   font-size: 1.8rem;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   background-color: #dfdfdf;
+  position: relative;
+  top: 0px;
 }
 .contents .page1 .desc{
   position: relative;
@@ -129,50 +147,6 @@
 
 @media screen and (max-width: 1024px){
 
-/* ----------------page1 공연소개---------------- */
-
-.contents .page1{
-  background-color: #676767;
-  height: 1130px;
-}
-.contents .page1 .title{
-  top: 120px;
-}
-.contents .page1 .bigTitle{
-  padding-left: 100px;
-  width: 100%;
-}
-.contents .page1 .title h1{
-  font-size: 7rem;
-}
-.contents .page1 .title .butterflyImg{
-  width: 100px;
-  height: 100px;
-  top: -65px;
-  right: 47px;
-}
-.contents .page1 .title h3{
-  font-size: 1.5rem;
-  width: 48%;
-  padding: 0px 20px;
-}
-.contents .page1 .desc{
-  font-size: 1.7rem;
-  width: 63%;
-  top: 178px;
-}
-.contents .page1 .bgImg{
-  width: 982px;
-  height: 544px;
-  top: 210px;
-}
-.contents .page1 .womanImg{
-  width: 436px;
-  height: 653px;
-  right: 3em;
-  top: 596px;
-}
-
 }
 
 /* tablet 규격 */
@@ -183,4 +157,8 @@
 /* mobile 규격 */
 @media screen and (max-width: 540px){
 
+}
+
+.contents .page1.clearfix {
+  overflow: hidden;
 }
