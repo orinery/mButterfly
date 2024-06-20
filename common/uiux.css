@@ -11,20 +11,6 @@
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.08);
 }
-.contents .page1, .contents .page2, .contents .page3, .contents .page4, .contents .page6{
-  width: 87%;
-  margin-left: 13%;
-  height: 1000px;
-}
-
-.contents .page1 {
-  /* background-color: #74574A; */
-}
-
-.contents .page2 {
-  background-color: #D8D8D8;
-}
-
 
 /* 네비게이션 */
 body{
@@ -84,4 +70,6 @@ nav .contBtn:hover{
   cursor: pointer;
   background-color: #777;
 }
+
+
 
