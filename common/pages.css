@@ -14,11 +14,6 @@
   visibility: visible;
 }
 
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /* ----------------page1 공연소개---------------- */
 
@@ -159,6 +154,3 @@
 
 }
 
-.contents .page1.clearfix {
-  overflow: hidden;
-}
