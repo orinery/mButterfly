@@ -203,7 +203,7 @@
 @media (min-width: 1441px) and (max-width: 1919px) {
     /* --page1 공연소개--*/
   .contents .page1 .title {width: 100%;top: 100px;}
-  .contents .page1{min-height: calc(100vh + 485px);}
+  .contents .page1{min-height: calc(100vh + 495px);}
   .contents .page1 .bigTitle h1 {font-size: 9rem;}
   .contents .page1 .bigTitle .butterflyImg {width: 150px;height: 150px;top: -80px;margin-left: -70px;}
   .contents .page1 .title h3 {font-size: 1.3rem;width: 83%;}
