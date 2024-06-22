@@ -98,30 +98,32 @@
 
 .contents .page2{
   position: relative;
+  background-color: #676767;
 }
-.contents .page2 .desc{
+
+.contents .page2 .desc .title{
+  position: relative;
+  top: 347px;
+  left: 75%;
+  font-size: 4.5rem;
+  /* color: #dfdfdf; */
   z-index: 1;
 }
-.contents .page2 .desc .title{
-  position: absolute;
-  top: 19%;
-  left: 77%;
-  font-size: 4.5rem;
-  color: #dfdfdf;
-}
 .contents .page2 .desc .synop1{
-  position: absolute;
+  position: relative;
   width: 38%;
-  top: 28%;
+  top: 419px;
   left: 55%;
   text-align: right;
+  z-index: 1;
 }
 .contents .page2 .desc .synop2{
-  position: absolute;
+  position: relative;
   width: 38%;
-  top: 70%;
-  left: 44%;
+  top: 472px;
+  left: 8%;
   text-align: left;
+  z-index: 1;
 }
 .contents .page2 .desc .synop1 h1,.contents .page2 .desc .synop2 h1{
   color: #AA1313;
@@ -132,22 +134,26 @@
   font-size: 1.5rem;
   text-align: justify;
 }
-.contents .page2 .desc .synop1 div{
+.contents .page2 .desc .synop2 div{
   color: #dfdfdf;
 }
-.contents .page2 .figure{
+
+.contents .page2 .imgContainer{
+  position: relative;
+  top: -501px;
+  height: 665px;
+}
+.contents .page2 .imgContainer .figure{
   position: absolute;
-  clip-path: polygon(0 0, 100% 0%, 100% 89%, 0 13%);
-  background-color: #676767;
+  /* clip-path: polygon(73% 0, 100% 0, 100% 100%, 0% 100%); */
+  clip-path: polygon(109% 0%, 0% 100%, 100% 100%);
+  background-color: #C1C1C1;
   width: 100%;
   height: 100%;
-  margin-top: -1px;
 }
-
-.contents .page2 .imgtiangate{
+.contents .page2 .imgContainer .imgtiangate{
   position: absolute;
-  top: 4%;
-  width: 996px;
+  width: 817px;
   height: 665px;
   background: url(../images/1.png) center / contain no-repeat;
   /* outline: 2px solid;*/
