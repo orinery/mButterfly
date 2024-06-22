@@ -115,7 +115,7 @@
   height: 824px;
   position: absolute;
   /* outline: 2px solid; */
-  right: 7em;
+  right: 7%;
   top: 610px;
   z-index: 5;
   background: url(../images/womanImg2.png) center / contain no-repeat, linear-gradient(to top, rgba(255, 255, 255, 0.8), transparent);
@@ -149,76 +149,68 @@
 }
 
 
-/* 작은 디바이스 (모바일) */
-@media (max-width: 767px) {
 
+
+/* ----------반응형입니다--------- */
+
+/* 작은 디바이스 (모바일) */
+@media (max-width: 768px) {
+  nav{display: none;}
+  .contents .page1, .contents .page2, .contents .page3, .contents .page4, .contents .page6 {width: 100% !important; margin-left: 0px !important;}
+  /* --page1 공연소개--*/
+  .contents .page1 .title {width: 100%;top: 80px;}
+  .contents .page1{padding: 0;min-height: calc(100vh + 230px);}
+  .contents .page1 .bigTitle h1 {font-size: 4.2rem;}
+  .contents .page1 .bigTitle .butterflyImg {width: 80px; height: 80px; top: -50px; margin-left: -35px;}
+  .contents .page1 .title h3 {font-size: 1.2rem;width: 62%;}
+  .contents .page1 .desc{font-size: 1.1rem;width: 98%;top: 140px;left: 8px;}
+  .contents .page1 .desc span{font-size: 0.95rem;}
+  .contents .page1 .bgImg {width: 800px;height: 440px; top: 285px;}
+  .contents .page1 .womanImg {width: 360px;height: 539px;right:2%;top:580px;}
 }
 
 /* 중간 디바이스 (태블릿) */
 @media (min-width: 768px) and (max-width: 1023px) {
-  nav{
-    display: none;
-  }
-  .contents .page1, .contents .page2, .contents .page3, .contents .page4, .contents .page6 {
-    width: 100% !important;
-    margin-left: 0px !important;
-}
-.contents .page1 .title {
-  width: 100%;
-  top: 80px;
-}
-.contents .page1 .bigTitle h1 {
-  font-size: 7rem;
-  margin-bottom: 10px;
-  z-index: 1006;
-  display: inline-block;
-}
-.contents .page1 .bigTitle .butterflyImg {
-  width: 80px; 
-  height: 80px; 
-  top: -50px;
-  margin-left: -40px;
-}
-.contents .page1 .title h3 {
-  font-size: 1.2rem;
-  width: 55%;
-}
-
-.contents .page1 .desc{
-  font-size: 1.2rem;
-  width: 90%;
-  top: 140px;
-  left: 30px;
-  font-weight: 500;
-}
-.contents .page1 .desc span{
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 2.0;
-}
-
-.contents .page1 .bgImg {
-  width: 800px;
-  height: 440px; 
-  top: 400px; 
-}
-
-.contents .page1 .womanImg {
-  width: 360px;
-  height: 540px;
-  right: 5%;
-  top: 655px;
-}
+  nav{display: none;}
+  .contents .page1, .contents .page2, .contents .page3, .contents .page4, .contents .page6 {width: 100% !important; margin-left: 0px !important;}
+    /* --page1 공연소개--*/
+  .contents .page1 .title {width: 100%;top: 80px;}
+  .contents .page1{padding: 0;min-height: calc(100vh + 370px);}
+  .contents .page1 .bigTitle h1 {font-size: 6.5rem;}
+  .contents .page1 .bigTitle .butterflyImg {width: 80px; height: 80px; top: -50px;margin-left: -35px;}
+  .contents .page1 .title h3 {font-size: 1.3rem;width: 83%;}
+  .contents .page1 .desc{font-size: 1.35rem;width: 98%;top: 140px;left: 20px;}
+  .contents .page1 .desc span{font-size: 1.15rem;}
+  .contents .page1 .bgImg {width: 850px;height: 480px;top: 450px;}
+  .contents .page1 .womanImg {width: 400px;height: 599px;right:3%;top: 650px;}
 }
 
 /* 노트북 */
 @media (min-width: 1024px) and (max-width: 1440px) {
-
+    /* --page1 공연소개--*/
+  .contents .page1 .title {width: 100%;top: 100px;}
+  .contents .page1{padding: 0;min-height: calc(100vh + 445px);}
+  .contents .page1 .bigTitle h1 {font-size: 8rem;}
+  .contents .page1 .bigTitle .butterflyImg {width: 120px;height: 120px;top: -70px;margin-left: -53px;}
+  .contents .page1 .title h3 {font-size: 1.3rem;width: 83%;}
+  .contents .page1 .desc{font-size: 1.35rem;width: 98%;top: 150px;left: 25px;}
+  .contents .page1 .desc span{font-size: 1.25rem;}
+  .contents .page1 .bgImg {width: 850px;height: 480px;top: 450px;}
+  .contents .page1 .womanImg {width: 430px;height: 645px;right: 3%;top: 680px;}
 }
 
 /* 데스크탑 */
 @media (min-width: 1441px) and (max-width: 1919px) {
-
+    /* --page1 공연소개--*/
+  .contents .page1 .title {width: 100%;top: 100px;}
+  .contents .page1{min-height: calc(100vh + 485px);}
+  .contents .page1 .bigTitle h1 {font-size: 9rem;}
+  .contents .page1 .bigTitle .butterflyImg {width: 150px;height: 150px;top: -80px;margin-left: -70px;}
+  .contents .page1 .title h3 {font-size: 1.3rem;width: 83%;}
+  .contents .page1 .desc{font-size: 1.6rem;width:59%;top: 160px;left: 25px;}
+  /* .contents .page1 .desc span{font-size: 1.25rem;} */
+  .contents .page1 .bgImg {width: 850px;height: 480px;top: 450px;}
+  .contents .page1 .womanImg {width: 450px;height: 674px;right: 3%;top: 690px;}
 }
 /* 큰 화면 */
 @media (min-width: 2560px){
