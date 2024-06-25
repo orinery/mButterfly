@@ -130,26 +130,26 @@
 
 .contents .page2 .desc .title{
   position: relative;
-  top: 347px;
-  left: 75%;
-  font-size: 4.5rem;
+  top: 550px;
+  left: 66%;
+  font-size: 5rem;
   /* color: #dfdfdf; */
   z-index: 1;
 }
 .contents .page2 .desc .synop1{
   position: relative;
   width: 38%;
-  top: 419px;
+  top: 620px;
   left: 55%;
-  text-align: right;
+  text-align: left;
   z-index: 1;
 }
 .contents .page2 .desc .synop2{
   position: relative;
   width: 38%;
-  top: 472px;
-  left: 8%;
-  text-align: left;
+  top: 666px;
+  left: 55%;
+  text-align: right;
   z-index: 1;
 }
 .contents .page2 .desc .synop1 h1,.contents .page2 .desc .synop2 h1{
@@ -161,16 +161,12 @@
   font-size: 1.5rem;
   text-align: justify;
 }
-.contents .page2 .desc .synop2 div{
-  color: #dfdfdf;
-}
-
-.contents .page2 .imgContainer{
+.contents .page2 .imgContainer1{
   position: relative;
-  top: -501px;
+  top: -300px;
   height: 665px;
 }
-.contents .page2 .imgContainer .figure{
+.contents .page2 .imgContainer1 .figure{
   position: absolute;
   /* clip-path: polygon(73% 0, 100% 0, 100% 100%, 0% 100%); */
   clip-path: polygon(109% 0%, 0% 100%, 100% 100%);
@@ -178,12 +174,33 @@
   width: 100%;
   height: 100%;
 }
-.contents .page2 .imgContainer .imgtiangate{
+.contents .page2 .imgContainer1 .img1{
   position: absolute;
   width: 817px;
   height: 665px;
   background: url(../images/1.png) center / contain no-repeat;
   /* outline: 2px solid;*/
+}
+.contents .page2 .imgContainer2{
+  position: relative;
+  top: -301px;
+  height: 665px;
+}
+.contents .page2 .imgContainer2 .img2{
+  position: absolute;
+  width: 802px;
+  height: 520px;
+  /* outline: 2px solid; */
+  background:  url(../images/2.png) center / contain no-repeat;
+  transform: scale(-1);
+}
+.contents .page2 .imgContainer2 .figure{
+  position: absolute;
+  clip-path: polygon(109% 0%, 0% 100%, 100% 100%);
+  background-color: #C1C1C1;
+  width: 100%;
+  height: 100%;
+  transform: scaleY(-1);
 }
 
 
