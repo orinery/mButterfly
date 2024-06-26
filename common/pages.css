@@ -136,28 +136,28 @@
   /* color: #dfdfdf; */
   z-index: 1;
 }
-.contents .page2 .synop1{
+
+.contents .page2 .desc{
   position: relative;
   width: 38%;
+  left: 55%;
   top: 320px;
-  left: 55%;
+  z-index: 1;
+}
+.contents .page2 .desc .synop1{
   text-align: left;
-  z-index: 1;
 }
-.contents .page2 .synop2{
+.contents .page2 .desc .synop2{
   position: relative;
-  width: 38%;
-  top: 366px;
-  left: 55%;
+  /* top: 366px; */
   text-align: right;
-  z-index: 1;
 }
-.contents .page2 .synop1 h1,.contents .page2 .synop2 h1{
+.contents .page2 .desc .synop1 h1,.contents .page2 .desc .synop2 h1{
   color: #AA1313;
   font-size: 2.5rem;
   padding-bottom: 5px;
 }
-.contents .page2 .synop1 div, .contents .page2 .synop2 div{
+.contents .page2 .desc .synop1 div, .contents .page2 .desc .synop2 div{
   font-size: 1.5rem;
   text-align: justify;
 }
@@ -221,16 +221,17 @@
   .contents .page1 .bgImg {width: 800px;height: 440px; top: 285px;}
   .contents .page1 .womanImg {width: 360px;height: 539px;right:2%;top:580px;}
     /* -- page2 시놉시스 -- */
-  .contents .page2 .title{left: 25%;font-size: 3rem;}
-  .contents .page2 .imgContainer1{top: 0;}
+  .contents .page2 .title{left:0;width: 100%; text-align:right; padding-right: 25px; font-size:3rem;}
+  .contents .page2 .imgContainer1{top: -475px;height: 274px;}
   .contents .page2 .imgContainer1 .img1{width: 335px; height: 274px;}
-  .contents .page2 .imgContainer1 .figure{clip-path: polygon(109% 0%, 0% 100%, 100% 100%);}
-  .contents .page2 .imgContainer2{top: 0;}
+  .contents .page2 .imgContainer1 .figure{display: none;}
+  .contents .page2 .imgContainer2{height: 218px; top: -12px;}
   .contents .page2 .imgContainer2 .img2{width: 336px; height: 218px;}
-  .contents .page2 .imgContainer2 .figure{clip-path: polygon(109% 0%, 0% 100%, 100% 100%);}
-  .contents .page2 .synop1, .contents .page2 .synop2{width: 100%; left: 0; padding: 0 20px 0 20px;}
-  .contents .page2 .synop1 h1, .contents .page2 .synop2 h1{font-size: 2rem;}
-  .contents .page2 .synop1 div, .contents .page2 .synop2 div{font-size: 1.2rem;}
+  .contents .page2 .imgContainer2 .figure{display: none;}
+  .contents .page2 .desc{background-color: #C1C1C1; width: 100%; left: 0; padding: 30px 20px; top: 262px;}
+  .contents .page2 .desc .synop1{margin-bottom: 35px;}
+  .contents .page2 .desc .synop1 h1, .contents .page2 .desc .synop2 h1{font-size: 2rem;}
+  .contents .page2 .desc .synop1 div, .contents .page2 .desc .synop2 div{font-size: 1.2rem;}
 }
 
 /* 중간 디바이스 (태블릿) */
